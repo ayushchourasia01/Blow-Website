@@ -33,3 +33,7 @@
 	font-size: 12px;
   color: #fff;
 }
+textarea {
+    resize: vertical;
+    max-height: 300px;
+  }

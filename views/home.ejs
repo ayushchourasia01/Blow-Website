@@ -1,5 +1,13 @@
 <%- include("partials/header") -%>  
-
-<h1>home</h1>
-<p><%= firstpage %> </p> 
+<div>
+    <h1>home</h1>
+    <p><%= firstpage %> </p> 
+    <% for( var index = 0; index < posts.length; index++ ) { %>
+        <div>
+            <h2><%= posts[index].title %> </h2>
+            <p><%= posts[index].body %> </p>
+        </div>
+    <% } %>  
+    
+</div> 
 <%- include("partials/footer") -%> 
