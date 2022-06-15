@@ -37,3 +37,6 @@ textarea {
     resize: vertical;
     max-height: 300px;
   }
+.navbar-brand:hover{
+    color: #1abc9c !important;
+}
